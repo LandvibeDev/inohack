@@ -1,8 +1,10 @@
 from flask import Flask, Response, jsonify
-#from flask.ext.pymongo import pymongo
+from flask.ext.pymongo import PyMongo
 
 PORT = 1212
 app = Flask(__name__)
+mongo = PyMongo(app)
+
 
 # 앱 실행시
 # 도서관의 공기 정보를 리스트로 불러옴
