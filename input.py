@@ -14,7 +14,8 @@ air_pollution : 500
 air_pollution : "bad"
 
 lib = {
-    "jungsuck":{
+    {
+        "name": "jungsuck"
         "date": date,
         "time": time,
         "temperature" : temperature,
@@ -24,7 +25,8 @@ lib = {
         "air_pollution": air_pollution,
         "air_pollution_state": air_pollution_state
     },
-    "it_engineer":{
+    {
+        "name": "it_engineer"
         "date": date,
         "time": time,
         "temperature" : temperature,
@@ -34,7 +36,8 @@ lib = {
         "air_pollution": air_pollution,
         "air_pollution_state": air_pollution_state
     },
-    "engineer":{
+    {
+        "name": "engineer"
         "date": date,
         "time": time,
         "temperature" : temperature,
@@ -44,7 +47,8 @@ lib = {
         "air_pollution": air_pollution,
         "air_pollution_state": air_pollution_state
     },
-    "liberal":{
+    {
+        "name": "liberal"
         "date": date,
         "time": time,
         "temperature" : temperature,
@@ -54,7 +58,8 @@ lib = {
         "air_pollution": air_pollution,
         "air_pollution_state": air_pollution_state
     },
-    "business":{
+    {
+        "name": "business"
         "date": date,
         "time": time,
         "temperature" : temperature,
@@ -64,7 +69,8 @@ lib = {
         "air_pollution": air_pollution,
         "air_pollution_state": air_pollution_state
     },
-    "education":{
+    {
+        "name": "education"
         "date": date,
         "time": time,
         "temperature" : temperature,
@@ -74,7 +80,8 @@ lib = {
         "air_pollution": air_pollution,
         "air_pollution_state": air_pollution_state
     },
-    "living":{
+    {
+        "name": "living"  
         "date": date,
         "time": time,
         "temperature" : temperature,
@@ -83,7 +90,8 @@ lib = {
         "humidity_state":humidity_state,
         "air_pollution": air_pollution,
         "air_pollution_state": air_pollution_state
-    }
+    },
+
 }
 
 
